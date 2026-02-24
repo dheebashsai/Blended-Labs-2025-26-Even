@@ -87,11 +87,15 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. I logged in to the AWS Management Console and created a new VPC with the CIDR block 10.0.0.0/16, which acts as a private network for deploying AWS resources.
+
+2. Inside the VPC, I created a public subnet with CIDR block 10.0.1.0/24 and enabled auto-assign public IPv4. I then created and attached an Internet Gateway and       configured a route table with a default route (0.0.0.0/0) pointing to the Internet Gateway.
+
+3. I created a Security Group and configured inbound rules to allow SSH (Port 22) for remote access and HTTP (Port 80) for web traffic.
+
+4. I launched an EC2 instance using Amazon Linux 2 AMI in the public subnet, attached the security group and key pair, and ensured the instance was in the running      state.
+
+5. I connected to the EC2 instance using SSH, installed and started the Apache web server, created a simple HTML page, and verified that the web server was             accessible through the instance’s public IP address in a browser.
 
 ---
 
