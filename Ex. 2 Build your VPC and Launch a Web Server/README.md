@@ -104,6 +104,8 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 ### Screenshot 1: VPC and Subnet Details
 
 (Insert Screenshot Here)
+![WhatsApp Image 2026-02-24 at 11 02 10](https://github.com/user-attachments/assets/e9e759d9-dfe8-44df-9451-c81e218298fb)
+
 <img width="2520" height="1085" alt="Screenshot 2026-02-24 104641" src="https://github.com/user-attachments/assets/dcce0adf-9690-4245-972c-cfe704799489" />
 
 <img width="2522" height="1285" alt="Screenshot 2026-02-24 105126" src="https://github.com/user-attachments/assets/52de2c53-b759-4a00-8d46-a62aef3c8968" />
